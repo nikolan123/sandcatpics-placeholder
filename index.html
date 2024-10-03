@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>sandcat.pics</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta content="Work in Progress!" property="og:title">
+        <meta content="We're currently hard at work on this project, and it will be available for public use soon!" property="og:description">
+        <meta content="https://sandcat.pics" property="og:url">
+        <meta content="#fcba03" data-react-helmet="true" name="theme-color">
+      
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+            
+            html {
+                background-color: var(--bg);
+                color: var(--text);
+            }
+            
+            body {
+                height: 100vh;
+                margin: 0px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            h1 {
+                font-family: "Figtree", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 700;
+                font-style: normal;
+                color: var(--h1);
+            }
+
+            p {
+                font-family: "Figtree", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal;
+            }
+
+            a {
+                color: currentColor;
+                text-decoration: none;
+            }
+            
+            main {
+                background: var(--button);
+                border: 2px solid var(--button-border);
+                padding: 20px;
+                border-radius: 20px;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+            }
+            
+            main h1, p {
+                margin: 0px;
+            }
+
+            :root {
+                --text: #4c4f69;
+                --h1: #7287fd;
+                --header: rgba(239, 241, 245, 0.7);
+                --header-hover: #dce0e8;
+                --bg: #dce0e8;
+                --button: #ccd0da;
+                --button-border: #9e9e9e;
+                --button-hover: #aeb2bb;
+                --error: #ffa3a3;
+                --error-symbol: black;
+            }
+
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --text: #cdd6f4;
+                    --h1: #b4befe;
+                    --header: rgba(30, 30, 46, 0.7);
+                    --header-hover: #11111b;
+                    --bg: #11111b;
+                    --button: #313244;
+                    --button-border: #555555;
+                    --button-hover: #515264;
+                    --error: #740000;
+                    --error-symbol: white;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <h1>Sandcat.pics is Launching Soon! :3</h1>
+            <p>We're currently hard at work on this project, and it will be available for public use soon!</p>          
+        </main>
+    </body>
+</html>
